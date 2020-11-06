@@ -1,0 +1,66 @@
+<!Doctype html>
+<html>
+<head>
+	<title> CEB Electricity Bill </title>
+	<style>
+		
+	body{
+		background-color:yellow;
+	}
+	#top{
+		color:brown;
+	}
+	#uni{
+		background-color:white;
+		font-size:20px;
+		width:400px;
+		height:100px;
+		padding:70px;
+		border:5px solid black;
+		border-radius:40px;
+		
+	}
+	#bttn{
+		justify-content:right;
+		align-items:right;
+		height:50px;
+	}
+	#p1{
+		color:red;
+	}
+	</style>	
+</head>
+<body>
+	<div id="top">
+	<h2><B> Domestic Electricity Bill Calculator </B></h2>
+	</div>
+	
+	<div id="uni">
+	<form>
+		<label> No of units used : </label>
+		<input type="numbers" id="unit" name="units" placeholder="Number of units" size="20" maxlength="4" > kWh </input>
+		<br>
+		
+		<div id="bttn">
+		&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<button type="reset" value="clear" size="10"> Clear </button> <br>
+		
+		
+		&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <button type="button" onclick="myfunction()" > Calculate my Bill </button><br>
+		<div id="calculate"></div>
+		</div>
+	</div>
+	</form>
+	
+	<br><br>
+
+	<a href="https://roar.media/english/life/reports/electricity-bill-calculated-analysis"> More information on how my bill is calculate </a> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+	<a href="https://ceb.lk/bill-calculation-commercial/en"> Go to CEB web site </a>
+	<br><br>
+	
+	<div id="p1">
+	<marquee direction="right"><I> Created by : Tharundi Sulakshana </I></marquee>
+	</div>
+	
+	<script type = "text/javascript" src="CEBScript.js"> </script>
+</body>
+</html>
